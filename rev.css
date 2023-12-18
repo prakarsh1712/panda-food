@@ -1,0 +1,186 @@
+* {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.5px;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background: url(../img/bg2.jpg) no-repeat;
+	background-size: cover;
+}
+
+header {
+	text-align: center;
+	padding-top: 3%;
+	font-family: 'Chelsea Market', cursive;
+	font-size: 20px;
+	max-width: 700px;
+	display: block;
+	margin: 0 auto 0;
+}
+
+#body {
+	height: 100%;
+	width: 100%;
+	background-color: rgba(117, 54, 141, 0.9);
+	color: #fff;
+	padding: 0 30px;
+}
+
+#survey-form {
+	width: 100%;
+	max-width: 700px;
+	height: auto;
+	margin: 1.5% auto 0;
+	padding: 30px;
+	text-align: left;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: 22px;
+	background: #c56a5a;
+	border-radius: 20px;
+}
+
+#description {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 25px;
+	font-style: italic;
+	margin: 10px 0 0;
+}
+
+.form-group {
+	width: auto;
+	margin: 0 0 20px;
+}
+
+input,
+option,
+select,
+textarea,
+button {
+	font-family: 'Chelsea Market', cursive;
+	color: #767676;
+	font-weight: 400;
+}
+
+label {
+	width: 100%;
+	margin-bottom: 8px;
+	display: block;
+}
+
+.p-label {
+	width: 100%;
+	margin-bottom: 8px;
+	display: block;
+}
+
+input {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 46px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 15px;
+	border: 1px solid #767676;
+}
+
+select {
+	display: block;
+	box-sizing: border-box;
+	width: 100%;
+	height: 46px;
+	border-radius: 5px;
+	padding: 5px 10px;
+	font-size: 15px;
+	border-width: 1px;
+}
+
+/* Chrome 28+ */
+@supports (-webkit-appearance:none) {
+	[type="radio"] {
+		width: 15px;
+		height: 15px;
+		display: inline-block;
+		margin: -3px 10px 0 0;
+		vertical-align: middle;
+	}
+}
+
+/* Firefox (любой) */
+@-moz-document url-prefix() {
+	[type="radio"] {
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		margin: -3px 10px 0 0;
+		vertical-align: middle;
+	}
+}
+
+/* Internet Explorer 11+ */
+_:-ms-fullscreen,
+:root [type="radio"] {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin: -3px 10px 0 0;
+	vertical-align: middle;
+}
+/* Chrome 28+ */
+@supports (-webkit-appearance:none) {
+	[type="checkbox"] {
+		width: 15px;
+		height: 15px;
+		display: inline-block;
+		margin: -3px 10px 0 0;
+		vertical-align: middle;
+	}
+}
+
+/* Firefox (любой) */
+@-moz-document url-prefix() {
+	[type="checkbox"] {
+		width: 20px;
+		height: 20px;
+		display: inline-block;
+		margin: -3px 10px 0 0;
+		vertical-align: middle;
+	}
+}
+
+/* Internet Explorer 11+ */
+_:-ms-fullscreen,
+:root [type="checkbox"] {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin: -3px 10px 0 0;
+	vertical-align: middle;
+}
+
+textarea {
+	min-height: 120px;
+	width: 100%;
+	padding: 0.6rem;
+	box-sizing: border-box;
+}
+
+button {
+	width: 100%;
+	background: rgb(77, 196, 196);
+	border-width: 0;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 12px;
+	color: #fff;
+	font-size: 19px;
+}
+
+footer p {
+	text-align: center;
+	padding: 30px 0 20px;
+}

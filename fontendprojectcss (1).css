@@ -1,0 +1,145 @@
+body{
+    background-color: aliceblue;
+}
+.Q {
+    border: black 5px solid;
+    height: 470px;
+    width: 420px;
+    border-radius: 10px;
+    display:inline-block;
+    padding: 5px;
+    margin:0px;
+   
+}
+.T {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.A {
+    font-family:'Times New Roman', Times, serif;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+.iconimage1{
+    width: 50px;
+    height: 40px;
+    float: left;
+    border-radius: 50%;
+    cursor: pointer;
+    
+}
+
+.iconimage2{
+    width: 50px;
+    height: 40px;
+    float: right;
+    border-radius: 50%;
+}
+    
+.heading {
+    text-align: center;
+    font-style: italic;
+    font: bold;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(red, green, blue, alpha);
+    border: black 2px double;
+    border-radius: 5px;
+    
+}
+.firstrow {
+    border : black 4px solid;
+    height: 505px;
+    width: 420px;
+    border-style: ridge;
+    border-radius: 10px;
+    display:inline-block;
+    padding:5px;
+    margin:0px;
+
+    
+
+}
+
+.ashes {
+    height: 250px;
+    width: 200px;
+    text-align: center;
+    padding-left: 140px;
+
+}
+
+h2{
+    padding-left: 120px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+.para3 {
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
+.navigationbar {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.center-box { 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: black 5px solid;
+    width: 400px;
+    height: 450px;
+    border-radius: 10px;
+    display:inline-block;
+    padding: 5px;
+    margin:0px;
+}
+.image2 {
+    width: 250px;
+}
+.center-para {
+    font-size: 15px;
+}
+.center-head {
+    font-size: 28px;
+}
+.center-news {
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+.main {
+    padding-left: 100px;
+    padding-right: 50px;
+}

@@ -1,0 +1,16 @@
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 221px;
+}
+.bbb {
+   text-align: center;
+   border: 4px solid grey;
+   width: 520px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+
+
+}
